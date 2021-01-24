@@ -11,8 +11,8 @@ def game():
         player_cards.append(random.randint(1, 10))
       #dealer hands
     if len(dealer_cards) != 2:
-        dealer_cards.append(random.randint(1, 11))
-        dealer_cards.append(random.randint(1, 11))
+        dealer_cards.append(random.randint(1, 10))
+        dealer_cards.append(random.randint(1, 10))
     print('\n')
     #showing the player their cards
     print(f"you have {player_cards} for a total of {str(sum(player_cards))}")
